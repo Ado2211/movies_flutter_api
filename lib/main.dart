@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:movies_flutter_api/api/movie_api.dart';
 import 'package:movies_flutter_api/modules/home/bindings/home_bindings.dart';
+import 'package:movies_flutter_api/modules/movie/bindings/movie_bindings.dart';
 import 'package:movies_flutter_api/routes/app_pages.dart';
 import 'package:movies_flutter_api/routes/app_routes.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
             bodyMedium: GoogleFonts.poppins(textStyle: textTheme.bodyMedium),
           ),
         ),
-        title: 'Autoskola quiz app',
+        title: 'MovieApi',
         getPages: AppPages.routes,
         initialRoute: Routes.HOME,
         initialBinding: HomeBindings(),
