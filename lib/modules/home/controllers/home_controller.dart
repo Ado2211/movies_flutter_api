@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:movies_flutter_api/config/config.dart';
 import 'package:movies_flutter_api/data/models/movie_model.dart';
+import 'package:movies_flutter_api/main.dart';
 import 'package:movies_flutter_api/modules/home/views/search_view.dart';
 
 class HomeController extends GetxController {
@@ -54,6 +55,7 @@ class HomeController extends GetxController {
       }
     } catch (error) {
       throw 'Greška prilikom slanja zahteva: $error';
+      
     }
   }
 
@@ -64,7 +66,7 @@ class HomeController extends GetxController {
       final response = await http.get(Uri.parse(url), headers: headers);
       if (response.statusCode == 200) {
         final jsonData = json.decode(response.body);
-        final results = jsonData['results']; // Pristupamo 'results' objektu
+        final results = jsonData['results']; 
         if (results != null && results['averageRating'] != null) {
           double? rating = double.tryParse(results['averageRating'].toString());
           return rating;
