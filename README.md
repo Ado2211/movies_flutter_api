@@ -2,6 +2,10 @@
 
 A Flutter application that displays movies fetched from an API and managed using GetX state management.
 
+## Screenshots
+
+![Screenshot 1](https://github.com/Ado2211/movies_flutter_api/blob/main/movie.png)
+
 ## Features
 
 - Display a list of movies
@@ -13,7 +17,7 @@ A Flutter application that displays movies fetched from an API and managed using
 
 - Flutter
 - GetX for state management
-- [API Name] API for movie data
+- [Movie API] API for movie data
 
 ## Installation
 
@@ -21,11 +25,8 @@ A Flutter application that displays movies fetched from an API and managed using
 2. Run `flutter pub get` to install dependencies.
 3. Connect your device or emulator.
 4. Run `flutter run` to start the application.
+   
 
-## API Configuration
-
-To fetch movie data, you need to obtain an API key from [API Provider]. Once you have the API key, follow these steps:
-
-1. Create a `.env` file in the root directory of the project.
-2. Add your API key to the `.env` file using the following format:
+ 
+[Download app](https://mega.nz/file/MKVCWYiC#HWwU-tk2l8pU2wrr9Eum5hLP_rbUvDi_eKDSW24voCY)
 
