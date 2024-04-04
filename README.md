@@ -21,12 +21,11 @@ A Flutter application that displays movies fetched from an API and managed using
 
 ## Installation
 
-1. Clone the repository.
-2. Run `flutter pub get` to install dependencies.
-3. Connect your device or emulator.
-4. Run `flutter run` to start the application.
-   
+To install the application, follow these steps:
 
+1. Download the APK file from the link provided below.
+2. Enable installation from unknown sources on your device.
+3. Open the downloaded APK file and follow the on-screen instructions to install the application.
  
 [Download app](https://mega.nz/file/MKVCWYiC#HWwU-tk2l8pU2wrr9Eum5hLP_rbUvDi_eKDSW24voCY)
 
